@@ -43,6 +43,11 @@ int main() {
 		}
 
 		cout << "bingo Line: " << bingo << endl;
+
+		//줄 수가 5 이상이면 게임종료
+		if (bingo >= 5)
+			break;
+
 		cout << "숫자를 입력하세요: (0: 종료): ";
 		int input;
 		cin >> input;
